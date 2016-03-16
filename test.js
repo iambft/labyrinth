@@ -48,7 +48,6 @@ describe("wallAroundSum", function() {
 describe("finishPositionShow", function() {
   it("проверка прорисовки финиша", function() {
   	var fin = finishPosition();
-  //	finishPositionShow(fin);
     assert(field[fin[1]][fin[0]].elem.classList.contains("finishCell"));
   });
 });

@@ -1,3 +1,5 @@
+
+// начальные данные записть в обект
 function run(){
 	var xStart = 3,
 		yStart = 1,
@@ -36,11 +38,11 @@ function choiceRoute(x,y, direct){
 
 function ifNotFinishDo(x,y,routeArr,route,direct){
 	if(routeArr.length > 1){
-			route =  ifMoreOneRoute(routeArr,direct);
-		}else{
- 			route = ifOnlyRoute(x,y,routeArr);
-		};
-		setRoute(x,y,route);
+		route =  ifMoreOneRoute(routeArr,direct);
+	}else{
+ 		route = ifOnlyRoute(x,y,routeArr);
+	};
+	setRoute(x,y,route);
 };
 
 function ifNotFinish(x,y){
